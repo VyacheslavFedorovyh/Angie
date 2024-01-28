@@ -291,6 +291,7 @@ input::-webkit-inner-spin-button {
   left: 0;
   width: 100%;
   background-color: white;
+  z-index: 10;
 }
 
 .header__wrapper {
@@ -1541,6 +1542,112 @@ input::-webkit-inner-spin-button {
   line-clamp: 3;
 }
 
+.documents-page {
+  margin-top: 30px;
+}
+
+.documents-page__title {
+  color: #333;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  /* 125% */
+  text-transform: uppercase;
+}
+
+.documents-page__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.documents-page__list li > ol {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.documents-page__list li > ol li {
+  list-style-type: auto;
+  list-style-position: inside;
+}
+
+.documents-page__text {
+  color: #333;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.error-page__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.error-page__number {
+  color: #333;
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 130%;
+  /* 195px */
+  text-transform: uppercase;
+}
+
+.error-page__title {
+  color: #333;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  /* 30px */
+  text-transform: uppercase;
+}
+
+.error-page__subtitle {
+  color: #777;
+  text-align: center;
+  font-size: 20px;
+  line-height: 130%;
+  /* 26px */
+}
+
+.error-page__link {
+  color: #777;
+  line-height: 20px;
+  /* 142.857% */
+  border: 1px solid #dde5ed;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 45px;
+}
+
 @media (max-width: 1440px) {
   .header__logo {
     margin-right: calc(10px + 20 * (100vw - 992px) / 448);
@@ -2180,6 +2287,10 @@ input::-webkit-inner-spin-button {
 
   .products-main__title {
     font-size: 12.8205128205vw;
+  }
+
+  .documents-page__title {
+    font-size: 10.2564102564vw;
   }
 }
 

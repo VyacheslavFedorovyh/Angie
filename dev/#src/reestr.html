@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Реестр",
+})
+
+<body>
+   <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="main">
+         <section class="breadcrumbs">
+            <div class="container">
+               <ul class="breadcrumbs__list">
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Главная</a>
+                  </li>
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Правовые документы </a>
+                  </li>
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Реестр ПО</a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="documents-page section">
+            <div class="container">
+               <div class="documents-page__wrapper section__wrapper">
+                  <h1 class="documents-page__title">реестр программного обеспечения</h1>
+                  <ul class="documents-page__list">
+                     <li>
+                        <a href="#" class="documents-page__text underline">Описание функциональных характеристик Angie
+                           PRO</a>
+                     </li>
+                     <li>
+                        <a href="reestr.html" class="documents-page__text underline">Руководство по установке Angie
+                           PRO</a>
+                     </li>
+                     <li>
+                        <a href="#" class="documents-page__text underline">Руководство по эксплуатации Angie PRO</a>
+                     </li>
+                     <li>
+                        <a href="#" class="documents-page__text underline">Руководство по установке Angie Ingress
+                           Controller (ANIC)</a>
+                     </li>
+                     <li>
+                        <a href="#" class="documents-page__text underline">Руководство по эксплуатации Angie Ingress
+                           Controller (ANIC)</a>
+                     </li>
+                  </ul>
+                  <p class="documents-page__text">
+                     Информацию о стоимости программного обеспечения, включая Angie PRO и Angie Ingress Controller
+                     (ANIC) и условиях его приобретения можно уточнить, написав нам на адрес электронной почты:
+                     <a href="mailto:info@wbsrv.ru" class="documents-page__text underline"
+                        style="display: inline-block;">info@wbsrv.ru</a>
+                  </p>
+               </div>
+            </div>
+         </section>
+      </main>
+      @@include('html/footer.html', {})
+   </div>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
