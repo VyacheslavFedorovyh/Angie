@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Продукт",
+})
+
+<body>
+   <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="main">
+         <section class="breadcrumbs">
+            <div class="container">
+               <ul class="breadcrumbs__list">
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Главная</a>
+                  </li>
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Все продукты</a>
+                  </li>
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Angie PRO</a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="product-hero section">
+            <div class="container">
+               <div class="product-hero__wrapper">
+                  <div class="product-hero__card">
+                     <h1 class="product-hero__title">Angie Pro</h1>
+                     <p class="product-hero__subtitle">Веб-сервер — это класс программного обеспечения, предоставляющего
+                        доступ к сетевым ресурсам по протоколу HTTP конечным пользователям.Каждый раз, когда
+                        пользователь открывает сайт, мобильное приложение, пользуется киоском самообслуживания в
+                        метрополитене, или даже пользуется мультимедиа системой в поезде Сапсан, запрос пользователя
+                        будет обслужен Веб-Сервером.ООО "Веб-Сервер" предлагает Angie PRO, один из самых
+                        производительных веб-серверов в мире.</p>
+                  </div>
+                  <p class="product-hero__description">
+                     Angie PRO – единственный коммерческий веб-сервер разработка которого локализована в России.
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="product-preferences section">
+            <div class="container">
+               <ul class="product-preferences__list">
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">Веб-сервер общего назначения</span>
+                     <p class="product-preferences__description">Написан на языке C</p>
+                  </li>
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">L4-L7 балансировщик</span>
+                     <p class="product-preferences__description">Позволяет балансировать нагрузку между серверами как
+                        по протоколам TCP/UDP, так и
+                        по HTTP</p>
+                  </li>
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">Proxy-Cache сервер</span>
+                     <p class="product-preferences__description">Позволяет ускорять работу веб-сервисов с помощью
+                        гибкого механизма кеширования</p>
+                  </li>
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">Доступен под все
+                        популярные платформы</span>
+                     <p class="product-preferences__description">Собирается и тестируется под
+                        Alphine, Debian, Rocky, Ubuntu</p>
+                  </li>
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">Производительность</span>
+                     <p class="product-preferences__description">Один из лучших производительных веб-серверов в мире</p>
+                  </li>
+                  <li class="product-preferences__pref">
+                     <span class="product-preferences__title">Одна из лучших технических
+                        поддержек в России</span>
+                     <p class="product-preferences__description">Полный цикл гарантийной
+                        поддержки </p>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="product-why section">
+            <div class="container">
+               <div class="product-why__wrapper section__wrapper">
+                  <h2 class="section__title">ПОЧЕМУ ANGIE?</h2>
+                  <ul class="product-why__list">
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Совместимость с Nginx</div>
+                           <p class="product-why__descripiton"><span>Angie PRO</span> полностью совместим с Nginx, таким
+                              образом любой существующий пользователь Nginx
+                              может без серьезных затрат и простоя сервисов
+                              перейти на Angie PRO</p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Расширенная статистика и real-time мониторинг</div>
+                           <p class="product-why__descripiton"><span>Angie PRO</span> имеет возможность полного
+                              мониторинга
+                              нагрузки сервера в режиме реального времени что
+                              позволяет динамически управлять конфигурациями
+                              по профилю нагрузки и соблюдать полную </p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Динамическая конфигурация Upstream</div>
+                           <p class="product-why__descripiton">Возможность управлять настройками upstream
+                              групп с помощью удобного Rest интерфейса без остановки сервиса</p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Удаление элементов кэша</div>
+                           <p class="product-why__descripiton">Возможность удаления элементов cache через удобное API
+                              без остановки сервиса</p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Динамическое хранилище ключ-значение</div>
+                           <p class="product-why__descripiton">
+                              Динамическое управление переменными конфигурации <span>Angie PRO</span> через HTTP API
+                           </p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Активная проверка состояния проксируемых
+                              серверов </div>
+                           <p class="product-why__descripiton">Проверка на “живучесть” только на те upstream, которые
+                              отвечают по заданному алгоритму</p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">DNS динамическое обновление</div>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Проксирование с привязкой сессий</div>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="27" height="7" viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg>
+                        </div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Репозиторий с динамическими сторонними
+                              модулями</div>
+                           <p class="product-why__descripiton">
+                              <span>Angie PRO</span> поддерживает большинство сторонних модулей NGINX и дает возможность
+                              без проблем
+                              устанавливать их, и предоставляет гарантию их
+                           </p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Синхронизация зон разделяемой памяти</div>
+                           <p class="product-why__descripiton">
+                              Возможно использовать зоны cache, limit_req и.т.д. в кластере <span>Angie PRO</span>
+                           </p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">Сокрытие или персональный брендинг имени
+                              сервера в заголовках ответа</div>
+                           <p class="product-why__descripiton">
+                              Возможность изменить или скрыть название и версию веб-сервера от пользователей.
+                           </p>
+                        </div>
+                     </li>
+                     <li class="product-why__item">
+                        <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                              viewBox="0 0 27 7" fill="none">
+                              <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                           </svg></div>
+                        <div class="product-why__content">
+                           <div class="product-why__title">В Реестре Российского ПО</div>
+                           <p class="product-why__descripiton">
+                              <span>Angie PRO</span> внесён в Единый реестр российских программ для электронных
+                              вычислительных машин
+                              и баз данных, запись № 17604..
+                           </p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="product-requirements section">
+            <div class="container">
+               <div class="product-requirements__wrapper section__wrapper">
+                  <h2 class="product-requirements__title section__title">Системные требования</h2>
+                  <div class="product-requirements__main">
+                     <h2 class="product-requirements__subtitle">Список поддерживаемых ОС и архитектур</h2>
+                     <ul class="product-requirements__list border">
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Alma</span>
+                              <span>Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>8, 9</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Alpine</span>
+                              <span>Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>ALT Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>10</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Astra SE</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>1.7</span></p>
+                              <p>Архитектура сервера: <span>x86_64</span></p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Debian</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>10, 11, 12</span> </p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span></p>
+                           </div>
+                        </li>
+                     </ul>
+                     <ul class="product-requirements__list">
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Alma</span>
+                              <span>Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>8, 9</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Alpine</span>
+                              <span>Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>ALT Linux</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>10</span></p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Astra SE</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>1.7</span></p>
+                              <p>Архитектура сервера: <span>x86_64</span></p>
+                           </div>
+                        </li>
+                        <li class="product-requirements__item">
+                           <div class="product-requirements__label">
+                              <span>Debian</span>
+                           </div>
+                           <div class="product-requirements__content">
+                              <p>Версии: <span>10, 11, 12</span> </p>
+                              <p>Архитектура сервера: <span>x86_64, arm64</span></p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      @@include('html/footer.html', {})
+   </div>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
