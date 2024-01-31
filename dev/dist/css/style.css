@@ -462,13 +462,13 @@ input::-webkit-inner-spin-button {
   transition: 0.3s;
 }
 
-.header-sub.active svg {
+.header-sub.active .header-sub__icon {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
 
-.header-sub p.active svg {
+.header-sub p.active .header-sub__icon {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);

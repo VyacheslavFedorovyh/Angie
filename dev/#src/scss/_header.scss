@@ -124,12 +124,12 @@
       transition: 0.3s;
    }
    &.active {
-      svg {
+      .header-sub__icon {
          transform: rotate(-90deg);
       }
    }
    p.active {
-      svg {
+      .header-sub__icon {
          transform: rotate(-90deg);
       }
    }
