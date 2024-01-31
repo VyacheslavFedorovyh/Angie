@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Продукты",
+})
+
+<body>
+   <div class="wrapper">
+      @@include('html/header.html', {})
+      <main class="main">
+         <section class="breadcrumbs">
+            <div class="container">
+               <ul class="breadcrumbs__list">
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Главная</a>
+                  </li>
+                  <li>
+                     <a href="#" class="breadcrumbs__link">Поиск</a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="search-page section">
+            <div class="container">
+               <div class="search-page__wrapper section__wrapper">
+                  <h1 class="search-page__title">ПОИСК</h1>
+                  <div class="search-page__input">
+                     <input type="text" placeholder="Поиск">
+                     <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                           <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M5.52521 0.0327148C2.49179 0.0327148 0.0327148 2.49179 0.0327148 5.52521C0.0327148 8.55864 2.49179 11.0177 5.52521 11.0177C6.8077 11.0177 7.98752 10.5782 8.92225 9.84149L11.8906 12.8098C12.1444 13.0637 12.556 13.0637 12.8098 12.8098C13.0637 12.556 13.0637 12.1444 12.8098 11.8906L9.84149 8.92225C10.5782 7.98752 11.0177 6.8077 11.0177 5.52521C11.0177 2.49179 8.55864 0.0327148 5.52521 0.0327148ZM1.26771 5.52521C1.26771 3.17386 3.17386 1.26771 5.52521 1.26771C7.87657 1.26771 9.78271 3.17386 9.78271 5.52521C9.78271 7.87657 7.87657 9.78271 5.52521 9.78271C3.17386 9.78271 1.26771 7.87657 1.26771 5.52521Z"
+                              fill="#777777" />
+                        </svg>
+                     </button>
+                  </div>
+                  <ul class="search-page__list">
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>2023 > Angie PRO 1.1.0</span>
+                        </div>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>2023 > Angie PRO 1.1.0</span>
+                        </div>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>2023 > Angie PRO 1.1.0</span>
+                        </div>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>2023 > Angie PRO 1.1.0</span>
+                        </div>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>Console Light</span>
+                        </div>
+                        <p class="search-resultat__text">
+                           ...t Введение Angie предоставляет широкий спектр возможностей мониторинга своей работы;
+                           помимо метрик в API и модуля http_prometheus, можно использовать визуальную консоль,
+                           устанавливаемую в дополнение к серверу. Console Light — это облегченн...
+                        </p>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>Модуль</span>
+                           <span class="search-resultat__title_label">API</span>
+                        </div>
+                        <p class="search-resultat__text">
+                           ...t Введение Angie предоставляет широкий спектр возможностей мониторинга своей работы;
+                           помимо метрик в API и модуля http_prometheus, можно использовать визуальную консоль,
+                           устанавливаемую в дополнение к серверу. Console Light — это облегченн...
+                        </p>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>Модуль</span>
+                           <span class="search-resultat__title_label">http_upstream</span>
+                        </div>
+                        <p class="search-resultat__text">
+                           ...t Введение Angie предоставляет широкий спектр возможностей мониторинга своей работы;
+                           помимо метрик в API и модуля http_prometheus, можно использовать визуальную консоль,
+                           устанавливаемую в дополнение к серверу. Console Light — это облегченн...
+                        </p>
+                     </li>
+                     <li class="search-page__item search-resultat">
+                        <div class="search-resultat__title">
+                           <span>Console Light</span>
+                        </div>
+                        <p class="search-resultat__text">
+                           ...t Введение Angie предоставляет широкий спектр возможностей мониторинга своей работы;
+                           помимо метрик в API и модуля http_prometheus, можно использовать визуальную консоль,
+                           устанавливаемую в дополнение к серверу. Console Light — это облегченн...
+                        </p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+      </main>
+      @@include('html/footer.html', {})
+   </div>
+   <script src="js/app.js"></script>
+</body>
+
+</html>
