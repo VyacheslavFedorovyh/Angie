@@ -1,4 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "ru-ru" # для вывода XML
-defaultContentLanguage = "ru-ru" # для сайта
-title = "Angie"
