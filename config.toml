@@ -1,5 +1,4 @@
 baseURL = "http://example.org/"
-
 # для вывода XML
 languageCode: "ru-ru"
 # для сайта
