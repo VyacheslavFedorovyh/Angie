@@ -1,7 +1,7 @@
-baseURL: http://example.org/
+baseURL = "http://example.org/"
 
 # для вывода XML
 languageCode: "ru-ru"
 # для сайта
 defaultContentLanguage: "ru-ru"
-title: Angie
+title = "Angie"
