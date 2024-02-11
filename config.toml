@@ -4,3 +4,4 @@ baseURL: http://example.org/
 languageCode: "ru-ru"
 # для сайта
 defaultContentLanguage: "ru-ru"
+title: "Angie"
