@@ -1,0 +1,6 @@
+<script src="/js/app.js"></script>
+
+{{ if eq .Type "search" }}
+{{ $search := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" . | js.Build | fingerprint }}
+<script src="{{ $search.RelPermalink }}"></script>
+{{ end }}
