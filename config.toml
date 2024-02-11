@@ -1,3 +1,6 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "My New Hugo Site"  
+
+# для вывода XML
+languageCode: "ru-ru"
+# для сайта
+defaultContentLanguage: "ru-ru"
