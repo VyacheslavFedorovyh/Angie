@@ -1,0 +1,10 @@
+baseURL: http://example.org/
+# для вывода XML
+languageCode: "ru-ru"
+# для сайта 
+defaultContentLanguage: "ru-ru" 
+# this is required so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

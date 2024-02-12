@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+{{ partial "head.html" . }}
+
+<body>
+   <div class="wrapper">
+
+      {{ partial "header.html" . }}
+
+      <main class="main">
+         <section class="home-hero section">
+            <div class="container">
+               <div class="home-hero__wrapper">
+                  <div class="home-hero__company">
+                     <h1 class="home-hero__title">ANGIE</h1>
+                     <p class="home-hero__text">
+                        Компания «Веб-сервер» развивает ANGIE высокопроизводительный и масштабируемый веб-сервер,
+                        который
+                        создан как fork Nginx и призван превзойти функциональность оригинала и стать снова
+                        востребованным
+                        веб-сервером на рынке решений кластерных программных комплексов. Среди наших продуктов: <a
+                           href="#">Angie PRO</a>
+                        единственный коммерческий веб-сервер, разработка которого локализована в России.
+                        <a href="#">Angie Ingress Controller (ANIC)</a> это решение для управления трафиком
+                        контейнеризированных приложений в
+                        Kubernetes. Также на нашем сайте вы сможете ознакомиться с подробной документацией.
+                     </p>
+                  </div>
+                  <div class="home-news">
+                     <div class="home-news__title section__title">НОВОСТИ</div>
+                     <ul class="home-news__list">
+                        <li>
+                           <a href="#" class="news-item">
+                              <h2 class="news-item__title">Интервью с руководителем отдела разработки</h2>
+                              <p class="news-item__subtitle">Информационная служба Хабра пообщалась
+                                 с Валентином Бартеневым - руководителем отдела разработки «Веб-Сервера»</p>
+                              <div class="news-item__footer">
+                                 <span class="news-item__date">16.11.2023</span>
+                                 <div class="news-item__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9"
+                                       fill="none">
+                                       <path
+                                          d="M10.1964 0.5L14.6077 4.25M14.6077 4.25L10.1964 8M14.6077 4.25L0.999994 4.25"
+                                          stroke="#777777" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="news-item">
+                              <h2 class="news-item__title">Получили сертификат совместимости с ОС Альт СП Сервер</h2>
+                              <p class="news-item__subtitle">Сертификат не только подтверждает прохождение тестов, но и
+                                 является обязательным документом для внедрения нашего продукта у ряда заказчиков.</p>
+                              <div class="news-item__footer">
+                                 <span class="news-item__date">10.11.2023</span>
+                                 <div class="news-item__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9"
+                                       fill="none">
+                                       <path
+                                          d="M10.1964 0.5L14.6077 4.25M14.6077 4.25L10.1964 8M14.6077 4.25L0.999994 4.25"
+                                          stroke="#777777" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="news-item">
+                              <h2 class="news-item__title">Встречайте Console Light</h2>
+                              <p class="news-item__subtitle">Представляем легковесную визуальную консоль для мониторинга
+                                 активности в реальном времени</p>
+                              <div class="news-item__footer">
+                                 <span class="news-item__date">27.09.2023</span>
+                                 <div class="news-item__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9"
+                                       fill="none">
+                                       <path
+                                          d="M10.1964 0.5L14.6077 4.25M14.6077 4.25L10.1964 8M14.6077 4.25L0.999994 4.25"
+                                          stroke="#777777" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+         <section class="home-why section">
+            <div class="container">
+               <div class="home-why__wrapper section__wrapper">
+                  <h2 class="home-why__title section__title">ПОЧЕМУ ANGIE?</h2>
+                  <ul class="home-why__list">
+                     <li class="home-why__item">
+                        <h3 class="home-why__subtitle">Совместимость с Nginx</h3>
+                        <p class="home-why__text"><span>Angie PRO</span> полностью совместим с Nginx, таким образом
+                           любой существующий пользователь Nginx может без серьезных затрат и простоя </p>
+                     </li>
+                     <li class="home-why__item">
+                        <h3 class="home-why__subtitle">Динамическая конфигурация Upstream</h3>
+                        <p class="home-why__text">Возможность управлять настройками upstream групп с помощью удобного
+                           Rest интерфейса без остановки </p>
+                     </li>
+                     <li class="home-why__item">
+                        <h3 class="home-why__subtitle">Расширенная статистика и real-time мониторинг</h3>
+                        <p class="home-why__text">Angie PRO имеет возможность полного мониторинга нагрузки сервера в
+                           режиме реального времени что </p>
+                     </li>
+                     <li class="home-why__item">
+                        <h3 class="home-why__subtitle">Активная проверка состояния проксируемых серверов </h3>
+                        <p class="home-why__text">Проверка на “живучесть” только на те upstream, которые отвечают по
+                           заданному алгоритму</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="home-list section">
+            <div class="container">
+               <div class="home-list__wrapper section__wrapper">
+                  <h2 class="home-list__title section__title">Сертификации и технологические партнеры</h2>
+                  <ul class="home-list__items">
+                     <li>
+                        <a href="#">
+                           <img src="img/home/partners1.svg" alt="">
+
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/partners2.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/partners3.png" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/partners4.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/partners5.svg" alt="">
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <section class="home-list section">
+            <div class="container">
+               <div class="home-list__wrapper section__wrapper">
+                  <h2 class="home-list__title section__title">НАШИ КЛИЕНТЫ</h2>
+                  <ul class="home-list__items">
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client1.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client2.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client3.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client4.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client5.svg" alt="">
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <img src="img/home/client6.svg" alt="">
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      {{ partial "footer.html" . }}
+      {{ partial "scriptFooter" . }}
+
+   </div>
+</body>
+
+</html>

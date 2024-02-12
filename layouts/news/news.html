@@ -1,18 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="format-detection" content="telephone=no">
-   <link rel="stylesheet" href="/css/style.css?_v=20240116191207"> 
-   <title>Новости</title>
-</head>
+
+{{ partial "head.html" . }}
 
 <body>
    <div class="wrapper">
-      <header>
-</header>
+
+      {{ partial "header.html" . }}
+
       <main class="main">
          <section class="breadcrumbs">
             <div class="container">
@@ -90,7 +84,7 @@
                                     </div>
                                  </div>
                                  <div class="news-card__image">
-                                    <picture><source srcset="img/news-image.webp" type="image/webp"><img src="img/news-image.png" alt=""></picture>
+                                    <picture><source srcset="/img/news-image.webp" type="image/webp"><img src="/img/news-image.png" alt=""></picture>
                                  </div>
                               </a>
                            </li>
@@ -128,7 +122,7 @@
                                     </div>
                                  </div>
                                  <div class="news-card__image">
-                                    <picture><source srcset="img/news-image2.webp" type="image/webp"><img src="img/news-image2.png" alt=""></picture>
+                                    <picture><source srcset="/img/news-image2.webp" type="image/webp"><img src="/img/news-image2.png" alt=""></picture>
                                  </div>
                               </a>
                            </li>
@@ -167,7 +161,7 @@
                                     </div>
                                  </div>
                                  <div class="news-card__image">
-                                    <picture><source srcset="img/news-image3.webp" type="image/webp"><img src="img/news-image3.png" alt=""></picture>
+                                    <picture><source srcset="/img/news-image3.webp" type="image/webp"><img src="/img/news-image3.png" alt=""></picture>
                                  </div>
                               </a>
                            </li>
@@ -213,101 +207,10 @@
             </div>
          </section>
       </main>
-      <footer class="footer">
-   <div class="container">
-      <div class="footer__wrapper">
-         <div class="footer__main">
-            <ul class="footer__list">
-               <li>
-                  <a href="tel:+7 965 312-44-76">+7 965 312-44-76</a>
-                  <a href="mailto:info@wbsrv.ru">info@wbsrv.ru</a>
-                  <p class="footer__address">
-                     <span>119021, г. Москва, </span>
-                     <span>ул. Льва Толстого, д. 14, этаж 1, кв. 1/2</span>
-                  </p>
-                  <p class="footer__address">
-                     <span>ИНН: 7727563778</span>
-                     <span>ОГРН: 1027739642281</span>
-                  </p>
-               </li>
-               <li>
-                  <a href="#" class="footer__sublink">
-                     <span>Новости</span>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <path
-                           d="M0 4.038V0H4.038V1H1V4.038H0ZM0 18V13.962H1V17H4.038V18H0ZM13.962 18V17H17V13.962H18V18H13.962ZM17 4.038V1H13.962V0H18V4.038H17ZM13.942 13.942H15.154V15.154H13.942V13.942ZM13.942 11.519H15.154V12.731H13.942V11.519ZM12.731 12.731H13.942V13.942H12.731V12.731ZM11.519 13.942H12.731V15.154H11.519V13.942ZM10.308 12.731H11.519V13.942H10.308V12.731ZM12.731 10.308H13.942V11.519H12.731V10.308ZM11.519 11.519H12.731V12.731H11.519V11.519ZM10.308 10.308H11.519V11.519H10.308V10.308ZM15.154 2.846V7.692H10.308V2.846H15.154ZM7.692 10.308V15.154H2.846V10.308H7.692ZM7.692 2.846V7.692H2.846V2.846H7.692ZM6.808 14.27V11.193H3.73V14.27H6.808ZM6.808 6.809V3.73H3.73V6.807L6.808 6.809ZM14.269 6.809V3.73H11.192V6.807L14.269 6.809Z"
-                           fill="#777777" />
-                     </svg>
-                  </a>
-               </li>
-               <li>
-                  <a href="#" class="footer__sublink">
-                     <span>Поддержка</span>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                        <path
-                           d="M0 4.038V0H4.038V1H1V4.038H0ZM0 18V13.962H1V17H4.038V18H0ZM13.962 18V17H17V13.962H18V18H13.962ZM17 4.038V1H13.962V0H18V4.038H17ZM13.942 13.942H15.154V15.154H13.942V13.942ZM13.942 11.519H15.154V12.731H13.942V11.519ZM12.731 12.731H13.942V13.942H12.731V12.731ZM11.519 13.942H12.731V15.154H11.519V13.942ZM10.308 12.731H11.519V13.942H10.308V12.731ZM12.731 10.308H13.942V11.519H12.731V10.308ZM11.519 11.519H12.731V12.731H11.519V11.519ZM10.308 10.308H11.519V11.519H10.308V10.308ZM15.154 2.846V7.692H10.308V2.846H15.154ZM7.692 10.308V15.154H2.846V10.308H7.692ZM7.692 2.846V7.692H2.846V2.846H7.692ZM6.808 14.27V11.193H3.73V14.27H6.808ZM6.808 6.809V3.73H3.73V6.807L6.808 6.809ZM14.269 6.809V3.73H11.192V6.807L14.269 6.809Z"
-                           fill="#777777" />
-                     </svg>
-                  </a>
-               </li>
-            </ul>
-         </div>
-         <div class="footer__row">
-            <div class="footer__item">
-               <span class="footer__subtitle">Продукты</span>
-               <ul class="footer__list">
-                  <li>
-                     <a href="#" class="footer__link">Все продукты</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Angie PRO</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">ANIC</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Angie OSS</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="footer__item">
-               <span class="footer__subtitle">Документация</span>
-               <ul class="footer__list">
-                  <li>
-                     <a href="#" class="footer__link">Общая документация</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Angie PRO</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">ANIC</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Angie OSS</a>
-                  </li>
-               </ul>
-            </div>
-            <div class="footer__item">
-               <span class="footer__subtitle">Поддержка</span>
-               <ul class="footer__list">
-                  <li>
-                     <a href="#" class="footer__link">Техническафя поддержка</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Профессиональные услуги</a>
-                  </li>
-                  <li>
-                     <a href="#" class="footer__link">Форум</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-
-      </div>
+     
+      {{ partial "footer.html" . }}
+      {{ partial "scriptFooter" . }}
    </div>
-</footer>
-   </div>
-   <script src="js/app.js?_v=20240116191207"></script>
 </body>
 
 </html>
