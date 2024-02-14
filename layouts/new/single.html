@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+{{ partial "head.html" . }}
+
+<body>
+   <div class="wrapper">
+
+      {{ partial "header.html" . }}
+
+      <main class="main">
+         {{ partial "breadcrumbs.html" . }}
+         <section class="article">
+            <div class="container">
+               <div class="article__wrapper">
+                  {{ partial "article/article.html" . }}
+                  {{ partial "article/article-aside.html" . }}
+               </div>
+            </div>
+         </section>
+      </main>
+
+      {{ partial "footer.html" . }}
+      {{ partial "scriptFooter" . }}
+   </div>
+</body>
+
+</html>
