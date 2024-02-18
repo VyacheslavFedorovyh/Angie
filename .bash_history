@@ -1,3 +1,0 @@
-ls
-git branch
-exit
