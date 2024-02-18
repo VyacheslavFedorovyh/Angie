@@ -1,0 +1,3 @@
+ls
+git branch
+exit

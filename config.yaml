@@ -1,8 +1,22 @@
 baseURL: http://example.org/
-# для вывода XML
-languageCode: "ru-ru"
-# для сайта 
-defaultContentLanguage: "ru-ru" 
+
+defaultContentLanguage: ru
+languages:
+  ru:
+    disabled: false
+    languageCode: ru-RU
+    languageDirection: ltr
+    languageName: Russian
+    title: Projekt Dokumentation
+    weight: 1
+  en:
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: Project Documentation
+    weight: 2
+
 # this is required so that Hugo will render markdown to HTML
 markup:
   goldmark:
