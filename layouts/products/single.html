@@ -8,362 +8,340 @@
       {{ partial "header.html" . }}
 
       <main class="main">
-         <section class="breadcrumbs">
-            <div class="container">
-               <ul class="breadcrumbs__list">
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Главная</a>
-                  </li>
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Продукты</a>
-                  </li>
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Все продукты</a>
-                  </li>
-
-               </ul>
-            </div>
-         </section>
-         <section class="products-main">
-            <div class="container">
-               <div class="products-main__wrapper">
-                  <h1 class="products-main__title">продукты</h1>
-                  <p class="products-main__text">Здесь абзац продающего текста про наши продукты, который кто-то
-                     (например PR) напишет</p>
-                  <ul class="products-main__list">
-                     <li class="products-main__item products-item">
-                        <h3 class="products-item__title">Angie Pro</h3>
-                        <div class="products-item__text">
-                           <p>
-                              Единственный коммерческой веб-сервер
-                              разработка которого локализована в России.
-                           </p>
-
-                           <p>
-                              Веб-сервер — это класс программного
-                              обеспечения, предоставляющего доступ к
-                              сетевым ресурсам по протоколу HTTP
-                              конечным пользователям.
-                           </p>
-                        </div>
-                     </li>
-                     <li class="products-main__item products-item">
-                        <h3 class="products-item__title">Angie OSS</h3>
-                        <div class="products-item__text">
-                           <p>
-                              Единственный коммерческой веб-сервер
-                              разработка которого локализована в России.
-                           </p>
-
-                           <p>
-                              OSS развертывается и работает в кластере,
-                              управляя функциями Ingress с возможностью
-                              настройки правил обработки трафика.
-                              Продукт базируется на  Angie PRO
-                           </p>
-                        </div>
-                     </li>
-                     <li class="products-main__item products-item products-item_green">
-                        <h3 class="products-item__title">ANIC</h3>
-                        <div class="products-item__text">
-                           <p>Это решение для управления трафиком контейнеризированных приложений в Kubernetes.</p>
-
-                           <p>
-                              ANIC развертывается и работает в кластере, управляя функциями Ingress с возможностью
-                              настройки правил обработки трафика. Продукт базируется на  Angie PRO
-                           </p>
-                        </div>
-                     </li>
-                     <li class="products-main__item products-item">
-                        <h3 class="products-item__title">ANIC</h3>
-                        <div class="products-item__text">
-                           <p>Это решение для управления трафиком контейнеризированных приложений в Kubernetes.</p>
-
-                           <p>
-                              ANIC развертывается и работает в кластере, управляя функциями Ingress с возможностью
-                              настройки правил обработки трафика. Продукт базируется на  Angie PRO
-                           </p>
-                        </div>
-                     </li>
-                     <li class="products-main__item products-item">
-                        <h3 class="products-item__title">ANIC</h3>
-                        <div class="products-item__text">
-                           <p>Это решение для управления трафиком контейнеризированных приложений в Kubernetes.</p>
-
-                           <p>
-                              ANIC развертывается и работает в кластере, управляя функциями Ingress с возможностью
-                              настройки правил обработки трафика. Продукт базируется на  Angie PRO
-                           </p>
-                        </div>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </section>
-         <section class="products-compare">
-            <div class="container">
-               <div class="products-compare__wrapper section__wrapper">
-                  <h2 class="products-compare__title section__title">Сравнение продуктов</h2>
-                  <div class="table-product">
-                     <table>
-                        <tr>
-                           <th>Название функциональности</th>
-                           <th>Angie Pro</th>
-                           <th>Angie OSS</th>
-                           <th>NginxOSS</th>
-                           <th>Nginx Plus</th>
-                        </tr>
-                        <tr>
-                           <td>Совместимость с NGNX Open Sourse (OSS)</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>Расширенная статистика по REST ful JSON API</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>API адаптер для экспорта в Prometheus</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>Upstreams re-resolve</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>Resolve DNS SPV записей</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>Персональный брендинг имени сервера (Server)</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>Привязка сессий (sticky sessions)</td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M9.00002 16.2001L4.80002 12.0001L3.40002 13.4001L9.00002 19.0001L21 7.0001L19.6 5.6001L9.00002 16.2001Z"
-                                    fill="#4C89FF" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                           <td>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none">
-                                 <path
-                                    d="M18.36 19.7802L12 13.4102L5.63997 19.7802L4.21997 18.3602L10.59 12.0002L4.21997 5.64021L5.63997 4.22021L12 10.5902L18.36 4.23022L19.77 5.64021L13.41 12.0002L19.77 18.3602L18.36 19.7802Z"
-                                    fill="#777777" />
-                              </svg>
-                           </td>
-                        </tr>
-                     </table>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </main>
+        <section class="breadcrumbs">
+           <div class="container">
+              <ul class="breadcrumbs__list">
+                 <li>
+                    <a href="#" class="breadcrumbs__link">Главная</a>
+                 </li>
+                 <li>
+                    <a href="#" class="breadcrumbs__link">Все продукты</a>
+                 </li>
+                 <li>
+                    <a href="#" class="breadcrumbs__link">Angie PRO</a>
+                 </li>
+              </ul>
+           </div>
+        </section>
+        <section class="product-hero section">
+           <div class="container">
+              <div class="product-hero__wrapper">
+                 <div class="product-hero__card">
+                    <h1 class="product-hero__title">Angie Pro</h1>
+                    <p class="product-hero__subtitle">Веб-сервер — это класс программного обеспечения, предоставляющего
+                       доступ к сетевым ресурсам по протоколу HTTP конечным пользователям.Каждый раз, когда
+                       пользователь открывает сайт, мобильное приложение, пользуется киоском самообслуживания в
+                       метрополитене, или даже пользуется мультимедиа системой в поезде Сапсан, запрос пользователя
+                       будет обслужен Веб-Сервером.ООО "Веб-Сервер" предлагает Angie PRO, один из самых
+                       производительных веб-серверов в мире.</p>
+                 </div>
+                 <p class="product-hero__description">
+                    Angie PRO – единственный коммерческий веб-сервер разработка которого локализована в России.
+                 </p>
+              </div>
+           </div>
+        </section>
+        <section class="product-preferences section">
+           <div class="container">
+              <ul class="product-preferences__list">
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">Веб-сервер общего назначения</span>
+                    <p class="product-preferences__description">Написан на языке C</p>
+                 </li>
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">L4-L7 балансировщик</span>
+                    <p class="product-preferences__description">Позволяет балансировать нагрузку между серверами как
+                       по протоколам TCP/UDP, так и
+                       по HTTP</p>
+                 </li>
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">Proxy-Cache сервер</span>
+                    <p class="product-preferences__description">Позволяет ускорять работу веб-сервисов с помощью
+                       гибкого механизма кеширования</p>
+                 </li>
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">Доступен под все
+                       популярные платформы</span>
+                    <p class="product-preferences__description">Собирается и тестируется под
+                       Alphine, Debian, Rocky, Ubuntu</p>
+                 </li>
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">Производительность</span>
+                    <p class="product-preferences__description">Один из лучших производительных веб-серверов в мире</p>
+                 </li>
+                 <li class="product-preferences__pref">
+                    <span class="product-preferences__title">Одна из лучших технических
+                       поддержек в России</span>
+                    <p class="product-preferences__description">Полный цикл гарантийной
+                       поддержки </p>
+                 </li>
+              </ul>
+           </div>
+        </section>
+        <section class="product-why section">
+           <div class="container">
+              <div class="product-why__wrapper section__wrapper">
+                 <h2 class="section__title">ПОЧЕМУ ANGIE?</h2>
+                 <ul class="product-why__list">
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Совместимость с Nginx</div>
+                          <p class="product-why__descripiton"><span>Angie PRO</span> полностью совместим с Nginx, таким
+                             образом любой существующий пользователь Nginx
+                             может без серьезных затрат и простоя сервисов
+                             перейти на Angie PRO</p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Расширенная статистика и real-time мониторинг</div>
+                          <p class="product-why__descripiton"><span>Angie PRO</span> имеет возможность полного
+                             мониторинга
+                             нагрузки сервера в режиме реального времени что
+                             позволяет динамически управлять конфигурациями
+                             по профилю нагрузки и соблюдать полную </p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Динамическая конфигурация Upstream</div>
+                          <p class="product-why__descripiton">Возможность управлять настройками upstream
+                             групп с помощью удобного Rest интерфейса без остановки сервиса</p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Удаление элементов кэша</div>
+                          <p class="product-why__descripiton">Возможность удаления элементов cache через удобное API
+                             без остановки сервиса</p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Динамическое хранилище ключ-значение</div>
+                          <p class="product-why__descripiton">
+                             Динамическое управление переменными конфигурации <span>Angie PRO</span> через HTTP API
+                          </p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Активная проверка состояния проксируемых
+                             серверов </div>
+                          <p class="product-why__descripiton">Проверка на “живучесть” только на те upstream, которые
+                             отвечают по заданному алгоритму</p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">DNS динамическое обновление</div>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Проксирование с привязкой сессий</div>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="27" height="7" viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg>
+                       </div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Репозиторий с динамическими сторонними
+                             модулями</div>
+                          <p class="product-why__descripiton">
+                             <span>Angie PRO</span> поддерживает большинство сторонних модулей NGINX и дает возможность
+                             без проблем
+                             устанавливать их, и предоставляет гарантию их
+                          </p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Синхронизация зон разделяемой памяти</div>
+                          <p class="product-why__descripiton">
+                             Возможно использовать зоны cache, limit_req и.т.д. в кластере <span>Angie PRO</span>
+                          </p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">Сокрытие или персональный брендинг имени
+                             сервера в заголовках ответа</div>
+                          <p class="product-why__descripiton">
+                             Возможность изменить или скрыть название и версию веб-сервера от пользователей.
+                          </p>
+                       </div>
+                    </li>
+                    <li class="product-why__item">
+                       <div class="product-why__icon"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="7"
+                             viewBox="0 0 27 7" fill="none">
+                             <path d="M0 4H25M25 4L20 1M25 4L20 6.5" stroke="#777777" />
+                          </svg></div>
+                       <div class="product-why__content">
+                          <div class="product-why__title">В Реестре Российского ПО</div>
+                          <p class="product-why__descripiton">
+                             <span>Angie PRO</span> внесён в Единый реестр российских программ для электронных
+                             вычислительных машин
+                             и баз данных, запись № 17604..
+                          </p>
+                       </div>
+                    </li>
+                 </ul>
+              </div>
+           </div>
+        </section>
+        <section class="product-requirements section">
+           <div class="container">
+              <div class="product-requirements__wrapper section__wrapper">
+                 <h2 class="product-requirements__title section__title">Системные требования</h2>
+                 <div class="product-requirements__main">
+                    <h2 class="product-requirements__subtitle">Список поддерживаемых ОС и архитектур</h2>
+                    <ul class="product-requirements__list border">
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Alma</span>
+                             <span>Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>8, 9</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Alpine</span>
+                             <span>Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>ALT Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>10</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Astra SE</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>1.7</span></p>
+                             <p>Архитектура сервера: <span>x86_64</span></p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Debian</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>10, 11, 12</span> </p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span></p>
+                          </div>
+                       </li>
+                    </ul>
+                    <ul class="product-requirements__list">
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Alma</span>
+                             <span>Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>8, 9</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Alpine</span>
+                             <span>Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>ALT Linux</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>10</span></p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Astra SE</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>1.7</span></p>
+                             <p>Архитектура сервера: <span>x86_64</span></p>
+                          </div>
+                       </li>
+                       <li class="product-requirements__item">
+                          <div class="product-requirements__label">
+                             <span>Debian</span>
+                          </div>
+                          <div class="product-requirements__content">
+                             <p>Версии: <span>10, 11, 12</span> </p>
+                             <p>Архитектура сервера: <span>x86_64, arm64</span></p>
+                          </div>
+                       </li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </section>
+     </main>
      
       {{ partial "footer.html" . }}
       {{ partial "scriptFooter" . }}
