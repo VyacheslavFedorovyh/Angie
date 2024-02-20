@@ -7,24 +7,7 @@
       {{ partial "header.html" . }}
 
       <main class="main">
-         <section class="breadcrumbs">
-            <div class="container">
-               <ul class="breadcrumbs__list">
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Главная</a>
-                  </li>
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Компания</a>
-                  </li>
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Новости</a>
-                  </li>
-                  <li>
-                     <a href="#" class="breadcrumbs__link">Все новости</a>
-                  </li>
-               </ul>
-            </div>
-         </section>
+         {{ partial "breadcrumbs.html" . }}
          <section class="news-page">
             <div class="container">
                <div class="news-page__wrapper section__wrapper">
@@ -87,7 +70,7 @@
       </main>
 
       {{ partial "footer.html" . }}
-      {{ partial "scriptFooter" . }}
+      {{ partial "scriptFooter.html" . }}
    </div>
 </body>
 
