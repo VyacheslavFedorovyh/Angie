@@ -1,37 +1,54 @@
 <section class="product-preferences section">
   <div class="container">
-     <ul class="product-preferences__list">
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">Веб-сервер общего назначения</span>
-           <p class="product-preferences__description">Написан на языке C</p>
-        </li>
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">L4-L7 балансировщик</span>
-           <p class="product-preferences__description">Позволяет балансировать нагрузку между серверами как
-              по протоколам TCP/UDP, так и
-              по HTTP</p>
-        </li>
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">Proxy-Cache сервер</span>
-           <p class="product-preferences__description">Позволяет ускорять работу веб-сервисов с помощью
-              гибкого механизма кеширования</p>
-        </li>
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">Доступен под все
-              популярные платформы</span>
-           <p class="product-preferences__description">Собирается и тестируется под
-              Alphine, Debian, Rocky, Ubuntu</p>
-        </li>
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">Производительность</span>
-           <p class="product-preferences__description">Один из лучших производительных веб-серверов в мире</p>
-        </li>
-        <li class="product-preferences__pref">
-           <span class="product-preferences__title">Одна из лучших технических
-              поддержек в России</span>
-           <p class="product-preferences__description">Полный цикл гарантийной
-              поддержки </p>
-        </li>
-     </ul>
+    <ul class="product-preferences__list">
+      {{ range .Params.productHeroPreferences }}
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title">{{ .title }}</span>
+        <p class="product-preferences__description">{{ .subtitle }}</p>
+      </li>
+      {{ end }}
+      <!-- <li class="product-preferences__pref">
+        <span class="product-preferences__title"
+          >Веб-сервер общего назначения</span
+        >
+        <p class="product-preferences__description">Написан на языке C</p>
+      </li>
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title">L4-L7 балансировщик</span>
+        <p class="product-preferences__description">
+          Позволяет балансировать нагрузку между серверами как по протоколам
+          TCP/UDP, так и по HTTP
+        </p>
+      </li>
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title">Proxy-Cache сервер</span>
+        <p class="product-preferences__description">
+          Позволяет ускорять работу веб-сервисов с помощью гибкого механизма
+          кеширования
+        </p>
+      </li>
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title"
+          >Доступен под все популярные платформы</span
+        >
+        <p class="product-preferences__description">
+          Собирается и тестируется под Alphine, Debian, Rocky, Ubuntu
+        </p>
+      </li>
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title">Производительность</span>
+        <p class="product-preferences__description">
+          Один из лучших производительных веб-серверов в мире
+        </p>
+      </li>
+      <li class="product-preferences__pref">
+        <span class="product-preferences__title"
+          >Одна из лучших технических поддержек в России</span
+        >
+        <p class="product-preferences__description">
+          Полный цикл гарантийной поддержки
+        </p>
+      </li> -->
+    </ul>
   </div>
 </section>

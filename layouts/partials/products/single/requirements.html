@@ -1,108 +1,42 @@
 <section class="product-requirements section">
   <div class="container">
-     <div class="product-requirements__wrapper section__wrapper">
-        <h2 class="product-requirements__title section__title">Системные требования</h2>
-        <div class="product-requirements__main">
-           <h2 class="product-requirements__subtitle">Список поддерживаемых ОС и архитектур</h2>
-           <ul class="product-requirements__list border">
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Alma</span>
-                    <span>Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>8, 9</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Alpine</span>
-                    <span>Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>ALT Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>10</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Astra SE</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>1.7</span></p>
-                    <p>Архитектура сервера: <span>x86_64</span></p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Debian</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>10, 11, 12</span> </p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span></p>
-                 </div>
-              </li>
-           </ul>
-           <ul class="product-requirements__list">
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Alma</span>
-                    <span>Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>8, 9</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Alpine</span>
-                    <span>Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>3.15, 3.16, 3.17, 3.18</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>ALT Linux</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>10</span></p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span> </p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Astra SE</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>1.7</span></p>
-                    <p>Архитектура сервера: <span>x86_64</span></p>
-                 </div>
-              </li>
-              <li class="product-requirements__item">
-                 <div class="product-requirements__label">
-                    <span>Debian</span>
-                 </div>
-                 <div class="product-requirements__content">
-                    <p>Версии: <span>10, 11, 12</span> </p>
-                    <p>Архитектура сервера: <span>x86_64, arm64</span></p>
-                 </div>
-              </li>
-           </ul>
-        </div>
-     </div>
+    <div class="product-requirements__wrapper section__wrapper">
+      <h2 class="product-requirements__title section__title">
+        {{ .Params.productRequirementsTitle }}
+      </h2>
+      <div class="product-requirements__main">
+        <h2 class="product-requirements__subtitle">{{ .Params.productRequirementsSubtitle }}</h2>
+        {{ range .Params.productRequirementsLists }}
+        <ul class="product-requirements__list {{if .border }}border{{ end }}">
+          {{ range .data }} {{ $lenVersions := len .versions }} {{
+          $lenArchitectures := len .architectures }}
+          <li class="product-requirements__item">
+            <div class="product-requirements__label">
+              {{ range .systems }}
+              <span>{{ . }}</span>
+              {{ end }}
+            </div>
+            <div class="product-requirements__content">
+              <p>
+                {{ $.Params.productRequirementsVersionTag }}
+                <span>
+                  {{ range $index, $elem := .versions }} {{ $elem }}{{ if ne
+                  $index (sub $lenVersions 1) }},{{ end }} {{ end }}
+                </span>
+              </p>
+              <p>
+                {{ $.Params.productRequirementsArchitectureTag }}
+                <span>
+                  {{ range $index, $elem := .architectures }} {{ $elem }}{{ if
+                  ne $index (sub $lenVersions 1) }},{{ end }} {{ end }}
+                </span>
+              </p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
