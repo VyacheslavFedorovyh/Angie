@@ -1,5 +1,5 @@
 ---
-title: "Три недели обновлений"
+title: "Angie Pro"
 date: 2024-02-10T18:20:26+10:00
 tags:
   - AngiePro
@@ -7,8 +7,9 @@ tags:
   - Anic
   - ConsoleLight
 
+# hero section
 productHeroTitle: "Angie Pro"
-productHeroSubtitle: "Веб-сервер — это класс программного обеспечения, предоставляющего доступ к сетевым ресурсам по протоколу HTTP конечным пользователям.Каждый раз, когда пользователь открывает сайт, мобильное приложение, пользуется киоском самообслуживания в метрополитене, или даже пользуется мультимедиа системой в поезде Сапсан, запрос пользователя будет обслужен Веб-Сервером.ООО \"Веб-Сервер\" предлагает Angie PRO, один из самых производительных веб-серверов в мире."
+productHeroSubtitle: 'Веб-сервер — это класс программного обеспечения, предоставляющего доступ к сетевым ресурсам по протоколу HTTP конечным пользователям.Каждый раз, когда пользователь открывает сайт, мобильное приложение, пользуется киоском самообслуживания в метрополитене, или даже пользуется мультимедиа системой в поезде Сапсан, запрос пользователя будет обслужен Веб-Сервером.ООО "Веб-Сервер" предлагает Angie PRO, один из самых производительных веб-серверов в мире.'
 productHeroDescription: "Angie PRO – единственный коммерческий веб-сервер разработка которого локализована в России."
 productHeroPreferences:
   - id: 1
@@ -30,8 +31,8 @@ productHeroPreferences:
     title: "Одна из лучших технических поддержек в России"
     subtitle: "Полный цикл гарантийной поддержки"
 
+# why section
 productWhyTitle: "ПОЧЕМУ ANGIE?"
-# productWhyCurrentProduct: "Angie PRO"
 productWhyList:
   - id: 1
     title: "Совместимость с Nginx"
@@ -70,108 +71,116 @@ productWhyList:
     title: "В Реестре Российского ПО"
     description: "<span>Angie PRO</span> внесён в Единый реестр российских программ для электронных вычислительных машин и баз данных, запись № 17604.."
 
+# requirements section
 productRequirementsTitle: "СИСТЕМНЫЕ ТРЕБОВАНИЯ"
 productRequirementsSubtitle: "Список поддерживаемых ОС и архитектур"
 productRequirementsVersionTag: "Версии:"
 productRequirementsArchitectureTag: "Архитектура сервера:"
 productRequirementsLists:
-- id: 1
-  border: true
-  data:
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-- id: 2
-  border: false
-  data:
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
-  - systems:
-    - Alma
-    - Linux
-    versions:
-    - 8
-    - 9
-    architectures:
-    - x86_64
-    - arm64
+  - id: 1
+    border: true
+    data:
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+  - id: 2
+    border: false
+    data:
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
+      - systems:
+          - Alma
+          - Linux
+        versions:
+          - 8
+          - 9
+        architectures:
+          - x86_64
+          - arm64
 
+# settings for products page
+colored: true
+productsItemTexts:
+  - id: 1
+    data: "Единственный коммерческой веб-сервер разработка которого локализована в России."
+  - id: 2
+    data: Веб-сервер — это класс программного обеспечения, предоставляющего доступ к сетевым ресурсам по протоколу HTTP конечным пользователям."
 ---
 
 Новость 2

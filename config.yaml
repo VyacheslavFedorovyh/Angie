@@ -17,6 +17,8 @@ languages:
     title: Project Documentation
     weight: 2
 
+paginate: 4
+
 # this is required so that Hugo will render markdown to HTML
 markup:
   goldmark:

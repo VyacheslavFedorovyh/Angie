@@ -186,3 +186,33 @@
       }
    }
 }
+
+.pagination {
+   margin-top: 65px;
+   display: inline-flex;
+   border: 1px solid #DDE5ED;
+
+   .page-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      &:not(:last-child) {
+         border-right: 1px solid #DDE5ED
+      }
+
+      &.active {
+         border: 1px solid #3f62dc;
+      }
+
+   }
+
+   .page-link {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 130%;
+      color: #3f62dc;
+      padding: 9px 14px;
+   }
+}

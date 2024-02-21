@@ -1,0 +1,24 @@
+<section class="products-main">
+  <div class="container">
+    <div class="products-main__wrapper">
+      <h1 class="products-main__title">{{ .Params.productsMainTitle }}</h1>
+      <p class="products-main__text">{{ .Params.productsMainText }}</p>
+      <ul class="products-main__list">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}">
+          <li
+          class="products-main__item products-item {{ if .Page.Params.colored }}products-item_green{{ end }}"
+        >
+          <h3 class="products-item__title">{{ .Page.Params.title }}</h3>
+          <div class="products-item__text">
+            {{ range .Page.Params.productsItemTexts }}
+            <p>{{ .data }}</p>
+            {{ end }}
+          </div>
+        </li>
+        </aр>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
