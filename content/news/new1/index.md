@@ -1,7 +1,6 @@
 ---
 title: "Три недели обновлений"
 date: 2024-02-10T18:20:26+10:00
-alterntativeDate: "24 ноября 2024"
 articleTitle: "Три недели обновлений"
 articleLinkText: "следите"
 articleFooterDateText: "Дополнено"

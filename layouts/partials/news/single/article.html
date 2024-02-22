@@ -1,14 +1,17 @@
 <div class="article__content">
-   <span class="article__date">{{ .Date | time.Format ":date_medium" }}</span>
+   <span class="article__date">{{ .Date | time.Format "2 January 2006" }}</span>
    <h1 class="article__title section__title">{{ .Params.articleTitle }}</h1>
    <div class="article__main">
+      {{ $pathToWebpImage := printf "/img/%s.webp" .Params.articleImageName }}
+      {{ $pathToPngImage := printf "/img/%s.png" .Params.articleImageName }}
+      {{ if fileExists (printf "static/%s" $pathToPngImage) }}
       <div class="article__image">
-         
          <picture>
-            <source srcset="/img/{{ .Params.articleImageName }}.webp" type="image/webp">
-            <img src="img/{{ .Params.articleImageName }}.png" alt="">
+            <source srcset="{{ if fileExists $pathToWebpImage }}{{ $pathToWebpImage }}{{ end }}" type="image/webp">
+            <img src="{{ $pathToPngImage }}" alt="">
          </picture>
       </div>
+      {{ end }}
       <div class="article__text">
          {{ range .Params.textContent }}
             <p>
@@ -20,8 +23,7 @@
       </div>
    </div>
    <div class="article-footer">
-      <div class="article-footer__date">{{ .Params.articleFooterDateText }} {{ .Params.articleFooterDate | time.Format ":date_medium" }}</div>
-      <div class="article-footer__date">{{ .Params.articleFooterDateText }} {{ .Params.alterntativeDate }}</div>
+      <div class="article-footer__date">{{ .Params.articleFooterDateText }} {{ .Params.articleFooterDate | time.Format "2 January 2006" }}</div>
       <div class="news-card__labels">
          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path

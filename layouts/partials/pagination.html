@@ -7,7 +7,7 @@
         {{ end }} -->
         {{ range $pag.Pagers }}
           {{ if eq . $pag }}
-          <li class="page-item active"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
+          <li class="page-item active"><a href="{{ .URL }}" class="page-link active">{{ .PageNumber }}</a></li>
           {{ else }}
           <li class="page-item"><a href="{{ .URL }}" class="page-link">{{ .PageNumber }}</a></li>
           {{ end }}

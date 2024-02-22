@@ -14,6 +14,10 @@
       flex-direction: column;
       gap: 30px;
       border: 1px solid #3e8df9;
+
+      &.colored {
+         border: 1px solid #20b76f;
+      }
    }
 
    &__title {
@@ -22,6 +26,10 @@
       font-weight: 700;
       line-height: 120%; /* 36px */
       text-transform: uppercase;
+
+      &.colored {
+         color: #20b76f;
+      }
    }
 
    &__subtitle {

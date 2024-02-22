@@ -44,8 +44,6 @@
                           </div>
                           {{ $pathToWebpImage := printf "/img/%s.webp" .Page.Params.articleImageName }}
                           {{ $pathToPngImage := printf "/img/%s.png" .Page.Params.articleImageName }}
-                          <!-- {{$pathToWebpImage}}
-                          {{$pathToPngImage}} -->
                           {{ if fileExists (printf "static/%s" $pathToPngImage) }}
                           <div class="news-card__image">
                             <picture>

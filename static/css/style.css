@@ -991,8 +991,12 @@ input::-webkit-inner-spin-button {
   font-size: 14px;
   font-weight: 400;
   line-height: 130%;
-  color: #3f62dc;
+  color: #DDE5ED;
   padding: 9px 14px;
+}
+
+.pagination .page-link.active {
+  color: #3f62dc;
 }
 
 .article {
@@ -1254,6 +1258,10 @@ input::-webkit-inner-spin-button {
   border: 1px solid #3e8df9;
 }
 
+.product-hero__card.colored {
+  border: 1px solid #20b76f;
+}
+
 .product-hero__title {
   color: #3e8df9;
   font-size: 30px;
@@ -1261,6 +1269,10 @@ input::-webkit-inner-spin-button {
   line-height: 120%;
   /* 36px */
   text-transform: uppercase;
+}
+
+.product-hero__title.colored {
+  color: #20b76f;
 }
 
 .product-hero__subtitle {

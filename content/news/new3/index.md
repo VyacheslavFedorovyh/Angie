@@ -1,7 +1,6 @@
 ---
 title: "ВЕБ-СЕРВЕР ANGIE ГОД СПУСТЯ: НОВЫЕ ВОЗМОЖНОСТИ И ПЛАНЫ НА БУДУЩЕЕ"
 date: 2024-01-10T18:20:26+10:00
-alterntativeDate: "24 ноября 2024"
 articleTitle: "ВЕБ-СЕРВЕР ANGIE ГОД СПУСТЯ: НОВЫЕ ВОЗМОЖНОСТИ И ПЛАНЫ НА БУДУЩЕЕ"
 articleLinkText: "следите"
 articleFooterDateText: "Дополнено"
