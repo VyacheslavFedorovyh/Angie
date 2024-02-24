@@ -7,14 +7,14 @@ languages:
     languageCode: ru-RU
     languageDirection: ltr
     languageName: Russian
-    title: Projekt Dokumentation
+    title: Главная
     weight: 1
   en:
     disabled: false
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    title: Project Documentation
+    title: Main
     weight: 2
 
 paginate: 4
